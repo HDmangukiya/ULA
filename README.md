@@ -11,10 +11,6 @@ Student can see it's grades, exams, courses that he is enrolled in, chat with ot
 Content creator manages university events, research works and news.  
 University staff works with university-student related information.
 
-## Contributors
-
--   [Omar Iriskic](https://github.com/OMKE)
--   [Lazar Filipovic](https://github.com/laki098)
 
 ## Application Architecture
 
@@ -35,6 +31,36 @@ University staff works with university-student related information.
 -   Angular 9 with ngrx
 -   Sass
 -   Python (code-generation) - [SpringLeaf](https://github.com/OMKE/SpringLeaf)
+
+
+### RUN FE project
+To run the project outlined in the provided package.json file, you'll need to follow these steps:
+
+Install Node.js and npm:
+Ensure that Node.js and npm (Node Package Manager) are installed on your system. You can download and install them from the official Node.js website: Node.js Downloads.
+
+Install Angular CLI:
+The project is an Angular application, so you need to have Angular CLI (Command Line Interface) installed globally on your system. You can install it via npm using the following command:
+
+css
+Copy code
+npm install -g @angular/cli@latest
+Install project dependencies:
+Navigate to the project directory (kadem-projet) using the terminal or command prompt and run the following command to install the project dependencies:
+
+Copy code
+npm install
+Run the project:
+Once the dependencies are installed, you can start the development server by running the following command:
+
+sql
+Copy code
+npm start
+This command will build the project and start a development server. By default, the server runs on http://localhost:4200/.
+
+Access the application:
+Open a web browser and navigate to http://localhost:4200/ to view the running application.
+
 
 ### Design resources
 
