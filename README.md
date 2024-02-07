@@ -42,20 +42,22 @@ Ensure that Node.js and npm (Node Package Manager) are installed on your system.
 Install Angular CLI:
 The project is an Angular application, so you need to have Angular CLI (Command Line Interface) installed globally on your system. You can install it via npm using the following command:
 
-css
-Copy code
+```
 npm install -g @angular/cli@latest
-Install project dependencies:
-Navigate to the project directory (kadem-projet) using the terminal or command prompt and run the following command to install the project dependencies:
+```
 
-Copy code
+Install project dependencies:
+Navigate to the project directory using the terminal or command prompt and run the following command to install the project dependencies:
+
+```
 npm install
+```
 Run the project:
 Once the dependencies are installed, you can start the development server by running the following command:
 
-sql
-Copy code
+```
 npm start
+```
 This command will build the project and start a development server. By default, the server runs on http://localhost:4200/.
 
 Access the application:
